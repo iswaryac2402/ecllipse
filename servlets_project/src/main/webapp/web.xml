@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+	<servlet>
+		<servlet-name>ishwarya</servlet-name>
+		<servlet-class>com.tek.ServletProject</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>sneha</servlet-name>
+		<servlet-class>com.tek.ServletProject1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>ishwarya</servlet-name>
+	<url-pattern>/ishwarya</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	<servlet-name>sneha</servlet-name>
+	<url-pattern>/sneha</url-pattern></servlet-mapping>
+	
+</web-app>
